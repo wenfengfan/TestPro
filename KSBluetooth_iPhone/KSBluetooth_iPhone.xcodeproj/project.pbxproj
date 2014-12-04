@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391A3E971A0A65A900B1249F /* btn_pairing_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E891A0A65A900B1249F /* btn_pairing_normal@2x.png */; };
+		391A3E981A0A65A900B1249F /* connect_device@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E8A1A0A65A900B1249F /* connect_device@2x.png */; };
+		391A3E991A0A65A900B1249F /* mobile_phone_client_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E8B1A0A65A900B1249F /* mobile_phone_client_icon@2x.png */; };
+		391A3E9A1A0A65A900B1249F /* pairing_01_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E8C1A0A65A900B1249F /* pairing_01_n@2x.png */; };
+		391A3E9B1A0A65A900B1249F /* pairing_01_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E8D1A0A65A900B1249F /* pairing_01_s@2x.png */; };
+		391A3E9C1A0A65A900B1249F /* pairing_02_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E8E1A0A65A900B1249F /* pairing_02_n@2x.png */; };
+		391A3E9D1A0A65A900B1249F /* pairing_02_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E8F1A0A65A900B1249F /* pairing_02_s@2x.png */; };
+		391A3E9E1A0A65A900B1249F /* pairing_03_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E901A0A65A900B1249F /* pairing_03_n@2x.png */; };
+		391A3E9F1A0A65A900B1249F /* pairing_03_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E911A0A65A900B1249F /* pairing_03_s@2x.png */; };
+		391A3EA01A0A65A900B1249F /* pairing_04_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E921A0A65A900B1249F /* pairing_04_n@2x.png */; };
+		391A3EA11A0A65A900B1249F /* pairing_04_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E931A0A65A900B1249F /* pairing_04_s@2x.png */; };
+		391A3EA21A0A65A900B1249F /* pairing_05_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E941A0A65A900B1249F /* pairing_05_n@2x.png */; };
+		391A3EA31A0A65A900B1249F /* pairing_05_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E951A0A65A900B1249F /* pairing_05_s@2x.png */; };
+		391A3EA41A0A65A900B1249F /* pairing_bottom_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3E961A0A65A900B1249F /* pairing_bottom_bg@2x.png */; };
+		391A3EA71A0A667200B1249F /* KSAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 391A3EA61A0A667200B1249F /* KSAboutController.m */; };
+		391A3EA91A0A69C800B1249F /* public_backBtn_Bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3EA81A0A69C800B1249F /* public_backBtn_Bg@2x.png */; };
+		391A3EAD1A0A6AAC00B1249F /* About_edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3EAB1A0A6AAC00B1249F /* About_edit@2x.png */; };
+		391A3EAE1A0A6AAC00B1249F /* About_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A3EAC1A0A6AAC00B1249F /* About_logo@2x.png */; };
+		3996F1BE1A09079A00A45C35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3996F1BD1A09079A00A45C35 /* Foundation.framework */; };
+		3996F1C01A09079A00A45C35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3996F1BF1A09079A00A45C35 /* CoreGraphics.framework */; };
+		3996F1C21A09079A00A45C35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3996F1C11A09079A00A45C35 /* UIKit.framework */; };
+		3996F1C81A09079A00A45C35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3996F1C61A09079A00A45C35 /* InfoPlist.strings */; };
+		3996F1CA1A09079A00A45C35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3996F1C91A09079A00A45C35 /* main.m */; };
+		3996F1CE1A09079A00A45C35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3996F1CD1A09079A00A45C35 /* AppDelegate.m */; };
+		3996F1D11A09079A00A45C35 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3996F1CF1A09079A00A45C35 /* Main_iPhone.storyboard */; };
+		3996F1D41A09079A00A45C35 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3996F1D21A09079A00A45C35 /* Main_iPad.storyboard */; };
+		3996F1D71A09079A00A45C35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3996F1D61A09079A00A45C35 /* ViewController.m */; };
+		3996F1D91A09079A00A45C35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3996F1D81A09079A00A45C35 /* Images.xcassets */; };
+		3996F1E01A09079A00A45C35 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3996F1DF1A09079A00A45C35 /* XCTest.framework */; };
+		3996F1E11A09079A00A45C35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3996F1BD1A09079A00A45C35 /* Foundation.framework */; };
+		3996F1E21A09079A00A45C35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3996F1C11A09079A00A45C35 /* UIKit.framework */; };
+		3996F1EA1A09079A00A45C35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3996F1E81A09079A00A45C35 /* InfoPlist.strings */; };
+		3996F1EC1A09079A00A45C35 /* KSBluetooth_iPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3996F1EB1A09079A00A45C35 /* KSBluetooth_iPhoneTests.m */; };
+		3996F2011A090ECC00A45C35 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3996F1F81A090ECC00A45C35 /* MMDrawerBarButtonItem.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3996F2021A090ECC00A45C35 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3996F1FA1A090ECC00A45C35 /* MMDrawerController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3996F2031A090ECC00A45C35 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3996F1FC1A090ECC00A45C35 /* MMDrawerVisualState.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3996F2041A090ECC00A45C35 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3996F1FE1A090ECC00A45C35 /* UIViewController+MMDrawerController.m */; };
+		3996F2081A090F3800A45C35 /* KSLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3996F2071A090F3800A45C35 /* KSLeftViewController.m */; };
+		3996F20B1A090FE900A45C35 /* KSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3996F20A1A090FE900A45C35 /* KSMainViewController.m */; };
+		3996F20E1A0912C600A45C35 /* KSUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3996F20D1A0912C600A45C35 /* KSUtility.m */; };
+		7205477D1A0BD67800D64D3C /* public_titlebar_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7205477C1A0BD67800D64D3C /* public_titlebar_sel@2x.png */; };
+		720547821A0BDC0000D64D3C /* more_icon_about_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7205477E1A0BDC0000D64D3C /* more_icon_about_s@2x.png */; };
+		720547831A0BDC0000D64D3C /* more_icon_feedback_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7205477F1A0BDC0000D64D3C /* more_icon_feedback_s@2x.png */; };
+		720547841A0BDC0000D64D3C /* more_icon_replace_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 720547801A0BDC0000D64D3C /* more_icon_replace_s@2x.png */; };
+		720547851A0BDC0000D64D3C /* more_icon_upgrade_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 720547811A0BDC0000D64D3C /* more_icon_upgrade_s@2x.png */; };
+		720547881A0BE01400D64D3C /* main_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 720547871A0BE01400D64D3C /* main_search@2x.png */; };
+		7205478A1A0BE0E300D64D3C /* main_dashboard_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 720547891A0BE0E300D64D3C /* main_dashboard_bg@2x.png */; };
+		7205478C1A0BE12900D64D3C /* main_pointer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7205478B1A0BE12900D64D3C /* main_pointer@2x.png */; };
+		7205478F1A0BE16100D64D3C /* main_power_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7205478D1A0BE16100D64D3C /* main_power_off@2x.png */; };
+		720547901A0BE16100D64D3C /* main_power_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7205478E1A0BE16100D64D3C /* main_power_on@2x.png */; };
+		720547931A0BE1B600D64D3C /* main_btn_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 720547911A0BE1B600D64D3C /* main_btn_n@2x.png */; };
+		720547941A0BE1B600D64D3C /* main_btn_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 720547921A0BE1B600D64D3C /* main_btn_s@2x.png */; };
+		722BA1601A092F78005B73A1 /* public_main_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 722BA15F1A092F78005B73A1 /* public_main_right@2x.png */; };
+		722BA16C1A093521005B73A1 /* more_icon_about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 722BA1681A093521005B73A1 /* more_icon_about@2x.png */; };
+		722BA16D1A093521005B73A1 /* more_icon_feedback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 722BA1691A093521005B73A1 /* more_icon_feedback@2x.png */; };
+		722BA16E1A093521005B73A1 /* more_icon_replace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 722BA16A1A093521005B73A1 /* more_icon_replace@2x.png */; };
+		722BA16F1A093521005B73A1 /* more_icon_upgrade@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 722BA16B1A093521005B73A1 /* more_icon_upgrade@2x.png */; };
+		722BA1711A09372E005B73A1 /* list_item_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 722BA1701A09372E005B73A1 /* list_item_sel@2x.png */; };
+		722BA1731A093A0B005B73A1 /* main_left_bottom_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 722BA1721A093A0B005B73A1 /* main_left_bottom_icon@2x.png */; };
+		722BA1761A093E18005B73A1 /* KSConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722BA1751A093E18005B73A1 /* KSConnectViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3996F1E31A09079A00A45C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3996F1B21A09079A00A45C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3996F1B91A09079A00A45C35;
+			remoteInfo = KSBluetooth_iPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		391A3E891A0A65A900B1249F /* btn_pairing_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_pairing_normal@2x.png"; sourceTree = "<group>"; };
+		391A3E8A1A0A65A900B1249F /* connect_device@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connect_device@2x.png"; sourceTree = "<group>"; };
+		391A3E8B1A0A65A900B1249F /* mobile_phone_client_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobile_phone_client_icon@2x.png"; sourceTree = "<group>"; };
+		391A3E8C1A0A65A900B1249F /* pairing_01_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pairing_01_n@2x.png"; sourceTree = "<group>"; };
+		391A3E8D1A0A65A900B1249F /* pairing_01_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pairing_01_s@2x.png"; sourceTree = "<group>"; };
+		391A3E8E1A0A65A900B1249F /* pairing_02_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pairing_02_n@2x.png"; sourceTree = "<group>"; };
+		391A3E8F1A0A65A900B1249F /* pairing_02_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pairing_02_s@2x.png"; sourceTree = "<group>"; };
+		391A3E901A0A65A900B1249F /* pairing_03_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pairing_03_n@2x.png"; sourceTree = "<group>"; };
+		391A3E911A0A65A900B1249F /* pairing_03_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pairing_03_s@2x.png"; sourceTree = "<group>"; };
+		391A3E921A0A65A900B1249F /* pairing_04_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pairing_04_n@2x.png"; sourceTree = "<group>"; };
+		391A3E931A0A65A900B1249F /* pairing_04_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pairing_04_s@2x.png"; sourceTree = "<group>"; };
+		391A3E941A0A65A900B1249F /* pairing_05_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pairing_05_n@2x.png"; sourceTree = "<group>"; };
+		391A3E951A0A65A900B1249F /* pairing_05_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pairing_05_s@2x.png"; sourceTree = "<group>"; };
+		391A3E961A0A65A900B1249F /* pairing_bottom_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pairing_bottom_bg@2x.png"; sourceTree = "<group>"; };
+		391A3EA51A0A667200B1249F /* KSAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSAboutController.h; sourceTree = "<group>"; };
+		391A3EA61A0A667200B1249F /* KSAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSAboutController.m; sourceTree = "<group>"; };
+		391A3EA81A0A69C800B1249F /* public_backBtn_Bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "public_backBtn_Bg@2x.png"; sourceTree = "<group>"; };
+		391A3EAB1A0A6AAC00B1249F /* About_edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "About_edit@2x.png"; sourceTree = "<group>"; };
+		391A3EAC1A0A6AAC00B1249F /* About_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "About_logo@2x.png"; sourceTree = "<group>"; };
+		3996F1BA1A09079A00A45C35 /* KSBluetooth_iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSBluetooth_iPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3996F1BD1A09079A00A45C35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3996F1BF1A09079A00A45C35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3996F1C11A09079A00A45C35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3996F1C51A09079A00A45C35 /* KSBluetooth_iPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSBluetooth_iPhone-Info.plist"; sourceTree = "<group>"; };
+		3996F1C71A09079A00A45C35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3996F1C91A09079A00A45C35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3996F1CB1A09079A00A45C35 /* KSBluetooth_iPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KSBluetooth_iPhone-Prefix.pch"; sourceTree = "<group>"; };
+		3996F1CC1A09079A00A45C35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3996F1CD1A09079A00A45C35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3996F1D01A09079A00A45C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		3996F1D31A09079A00A45C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		3996F1D51A09079A00A45C35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3996F1D61A09079A00A45C35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3996F1D81A09079A00A45C35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3996F1DE1A09079A00A45C35 /* KSBluetooth_iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSBluetooth_iPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3996F1DF1A09079A00A45C35 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3996F1E71A09079A00A45C35 /* KSBluetooth_iPhoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSBluetooth_iPhoneTests-Info.plist"; sourceTree = "<group>"; };
+		3996F1E91A09079A00A45C35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3996F1EB1A09079A00A45C35 /* KSBluetooth_iPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSBluetooth_iPhoneTests.m; sourceTree = "<group>"; };
+		3996F1F71A090ECC00A45C35 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		3996F1F81A090ECC00A45C35 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		3996F1F91A090ECC00A45C35 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		3996F1FA1A090ECC00A45C35 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		3996F1FB1A090ECC00A45C35 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		3996F1FC1A090ECC00A45C35 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		3996F1FD1A090ECC00A45C35 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		3996F1FE1A090ECC00A45C35 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		3996F2061A090F3800A45C35 /* KSLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLeftViewController.h; sourceTree = "<group>"; };
+		3996F2071A090F3800A45C35 /* KSLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLeftViewController.m; sourceTree = "<group>"; };
+		3996F2091A090FE900A45C35 /* KSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMainViewController.h; sourceTree = "<group>"; };
+		3996F20A1A090FE900A45C35 /* KSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMainViewController.m; sourceTree = "<group>"; };
+		3996F20C1A0912C600A45C35 /* KSUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSUtility.h; sourceTree = "<group>"; };
+		3996F20D1A0912C600A45C35 /* KSUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSUtility.m; sourceTree = "<group>"; };
+		7205477C1A0BD67800D64D3C /* public_titlebar_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "public_titlebar_sel@2x.png"; sourceTree = "<group>"; };
+		7205477E1A0BDC0000D64D3C /* more_icon_about_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_icon_about_s@2x.png"; sourceTree = "<group>"; };
+		7205477F1A0BDC0000D64D3C /* more_icon_feedback_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_icon_feedback_s@2x.png"; sourceTree = "<group>"; };
+		720547801A0BDC0000D64D3C /* more_icon_replace_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_icon_replace_s@2x.png"; sourceTree = "<group>"; };
+		720547811A0BDC0000D64D3C /* more_icon_upgrade_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_icon_upgrade_s@2x.png"; sourceTree = "<group>"; };
+		720547871A0BE01400D64D3C /* main_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_search@2x.png"; sourceTree = "<group>"; };
+		720547891A0BE0E300D64D3C /* main_dashboard_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_dashboard_bg@2x.png"; sourceTree = "<group>"; };
+		7205478B1A0BE12900D64D3C /* main_pointer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_pointer@2x.png"; sourceTree = "<group>"; };
+		7205478D1A0BE16100D64D3C /* main_power_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_power_off@2x.png"; sourceTree = "<group>"; };
+		7205478E1A0BE16100D64D3C /* main_power_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_power_on@2x.png"; sourceTree = "<group>"; };
+		720547911A0BE1B600D64D3C /* main_btn_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_btn_n@2x.png"; sourceTree = "<group>"; };
+		720547921A0BE1B600D64D3C /* main_btn_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_btn_s@2x.png"; sourceTree = "<group>"; };
+		722BA15F1A092F78005B73A1 /* public_main_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "public_main_right@2x.png"; sourceTree = "<group>"; };
+		722BA1681A093521005B73A1 /* more_icon_about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_icon_about@2x.png"; sourceTree = "<group>"; };
+		722BA1691A093521005B73A1 /* more_icon_feedback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_icon_feedback@2x.png"; sourceTree = "<group>"; };
+		722BA16A1A093521005B73A1 /* more_icon_replace@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_icon_replace@2x.png"; sourceTree = "<group>"; };
+		722BA16B1A093521005B73A1 /* more_icon_upgrade@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more_icon_upgrade@2x.png"; sourceTree = "<group>"; };
+		722BA1701A09372E005B73A1 /* list_item_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_item_sel@2x.png"; sourceTree = "<group>"; };
+		722BA1721A093A0B005B73A1 /* main_left_bottom_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_left_bottom_icon@2x.png"; sourceTree = "<group>"; };
+		722BA1741A093E18005B73A1 /* KSConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSConnectViewController.h; sourceTree = "<group>"; };
+		722BA1751A093E18005B73A1 /* KSConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSConnectViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3996F1B71A09079A00A45C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3996F1C01A09079A00A45C35 /* CoreGraphics.framework in Frameworks */,
+				3996F1C21A09079A00A45C35 /* UIKit.framework in Frameworks */,
+				3996F1BE1A09079A00A45C35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3996F1DB1A09079A00A45C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3996F1E01A09079A00A45C35 /* XCTest.framework in Frameworks */,
+				3996F1E21A09079A00A45C35 /* UIKit.framework in Frameworks */,
+				3996F1E11A09079A00A45C35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		391A3E881A0A65A900B1249F /* ConnectView */ = {
+			isa = PBXGroup;
+			children = (
+				391A3E891A0A65A900B1249F /* btn_pairing_normal@2x.png */,
+				391A3E8A1A0A65A900B1249F /* connect_device@2x.png */,
+				391A3E8B1A0A65A900B1249F /* mobile_phone_client_icon@2x.png */,
+				391A3E8C1A0A65A900B1249F /* pairing_01_n@2x.png */,
+				391A3E8D1A0A65A900B1249F /* pairing_01_s@2x.png */,
+				391A3E8E1A0A65A900B1249F /* pairing_02_n@2x.png */,
+				391A3E8F1A0A65A900B1249F /* pairing_02_s@2x.png */,
+				391A3E901A0A65A900B1249F /* pairing_03_n@2x.png */,
+				391A3E911A0A65A900B1249F /* pairing_03_s@2x.png */,
+				391A3E921A0A65A900B1249F /* pairing_04_n@2x.png */,
+				391A3E931A0A65A900B1249F /* pairing_04_s@2x.png */,
+				391A3E941A0A65A900B1249F /* pairing_05_n@2x.png */,
+				391A3E951A0A65A900B1249F /* pairing_05_s@2x.png */,
+				391A3E961A0A65A900B1249F /* pairing_bottom_bg@2x.png */,
+			);
+			path = ConnectView;
+			sourceTree = "<group>";
+		};
+		391A3EAA1A0A6AAC00B1249F /* About */ = {
+			isa = PBXGroup;
+			children = (
+				391A3EAB1A0A6AAC00B1249F /* About_edit@2x.png */,
+				391A3EAC1A0A6AAC00B1249F /* About_logo@2x.png */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		3996F1B11A09079A00A45C35 = {
+			isa = PBXGroup;
+			children = (
+				3996F1C31A09079A00A45C35 /* KSBluetooth_iPhone */,
+				3996F1E51A09079A00A45C35 /* KSBluetooth_iPhoneTests */,
+				3996F1BC1A09079A00A45C35 /* Frameworks */,
+				3996F1BB1A09079A00A45C35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3996F1BB1A09079A00A45C35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3996F1BA1A09079A00A45C35 /* KSBluetooth_iPhone.app */,
+				3996F1DE1A09079A00A45C35 /* KSBluetooth_iPhoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3996F1BC1A09079A00A45C35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3996F1BD1A09079A00A45C35 /* Foundation.framework */,
+				3996F1BF1A09079A00A45C35 /* CoreGraphics.framework */,
+				3996F1C11A09079A00A45C35 /* UIKit.framework */,
+				3996F1DF1A09079A00A45C35 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3996F1C31A09079A00A45C35 /* KSBluetooth_iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				722BA15E1A092900005B73A1 /* Images */,
+				3996F1F51A090ECC00A45C35 /* Libaries */,
+				3996F1FF1A090ECC00A45C35 /* UserInterface */,
+				3996F2001A090ECC00A45C35 /* Utility */,
+				3996F1CC1A09079A00A45C35 /* AppDelegate.h */,
+				3996F1CD1A09079A00A45C35 /* AppDelegate.m */,
+				3996F1CF1A09079A00A45C35 /* Main_iPhone.storyboard */,
+				3996F1D21A09079A00A45C35 /* Main_iPad.storyboard */,
+				3996F1D51A09079A00A45C35 /* ViewController.h */,
+				3996F1D61A09079A00A45C35 /* ViewController.m */,
+				3996F1D81A09079A00A45C35 /* Images.xcassets */,
+				3996F1C41A09079A00A45C35 /* Supporting Files */,
+			);
+			path = KSBluetooth_iPhone;
+			sourceTree = "<group>";
+		};
+		3996F1C41A09079A00A45C35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3996F1C51A09079A00A45C35 /* KSBluetooth_iPhone-Info.plist */,
+				3996F1C61A09079A00A45C35 /* InfoPlist.strings */,
+				3996F1C91A09079A00A45C35 /* main.m */,
+				3996F1CB1A09079A00A45C35 /* KSBluetooth_iPhone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3996F1E51A09079A00A45C35 /* KSBluetooth_iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				3996F1EB1A09079A00A45C35 /* KSBluetooth_iPhoneTests.m */,
+				3996F1E61A09079A00A45C35 /* Supporting Files */,
+			);
+			path = KSBluetooth_iPhoneTests;
+			sourceTree = "<group>";
+		};
+		3996F1E61A09079A00A45C35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3996F1E71A09079A00A45C35 /* KSBluetooth_iPhoneTests-Info.plist */,
+				3996F1E81A09079A00A45C35 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3996F1F51A090ECC00A45C35 /* Libaries */ = {
+			isa = PBXGroup;
+			children = (
+				3996F1F61A090ECC00A45C35 /* MMDrawerController */,
+			);
+			path = Libaries;
+			sourceTree = "<group>";
+		};
+		3996F1F61A090ECC00A45C35 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				3996F1F71A090ECC00A45C35 /* MMDrawerBarButtonItem.h */,
+				3996F1F81A090ECC00A45C35 /* MMDrawerBarButtonItem.m */,
+				3996F1F91A090ECC00A45C35 /* MMDrawerController.h */,
+				3996F1FA1A090ECC00A45C35 /* MMDrawerController.m */,
+				3996F1FB1A090ECC00A45C35 /* MMDrawerVisualState.h */,
+				3996F1FC1A090ECC00A45C35 /* MMDrawerVisualState.m */,
+				3996F1FD1A090ECC00A45C35 /* UIViewController+MMDrawerController.h */,
+				3996F1FE1A090ECC00A45C35 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		3996F1FF1A090ECC00A45C35 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				3996F2051A090F0C00A45C35 /* MainFrame */,
+				722BA1741A093E18005B73A1 /* KSConnectViewController.h */,
+				722BA1751A093E18005B73A1 /* KSConnectViewController.m */,
+				391A3EA51A0A667200B1249F /* KSAboutController.h */,
+				391A3EA61A0A667200B1249F /* KSAboutController.m */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		3996F2001A090ECC00A45C35 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3996F20C1A0912C600A45C35 /* KSUtility.h */,
+				3996F20D1A0912C600A45C35 /* KSUtility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		3996F2051A090F0C00A45C35 /* MainFrame */ = {
+			isa = PBXGroup;
+			children = (
+				3996F2061A090F3800A45C35 /* KSLeftViewController.h */,
+				3996F2071A090F3800A45C35 /* KSLeftViewController.m */,
+				3996F2091A090FE900A45C35 /* KSMainViewController.h */,
+				3996F20A1A090FE900A45C35 /* KSMainViewController.m */,
+			);
+			path = MainFrame;
+			sourceTree = "<group>";
+		};
+		720547861A0BDFF800D64D3C /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				720547911A0BE1B600D64D3C /* main_btn_n@2x.png */,
+				720547921A0BE1B600D64D3C /* main_btn_s@2x.png */,
+				7205478D1A0BE16100D64D3C /* main_power_off@2x.png */,
+				7205478E1A0BE16100D64D3C /* main_power_on@2x.png */,
+				720547891A0BE0E300D64D3C /* main_dashboard_bg@2x.png */,
+				7205478B1A0BE12900D64D3C /* main_pointer@2x.png */,
+				720547871A0BE01400D64D3C /* main_search@2x.png */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		722BA15E1A092900005B73A1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				720547861A0BDFF800D64D3C /* MainView */,
+				391A3EAA1A0A6AAC00B1249F /* About */,
+				391A3E881A0A65A900B1249F /* ConnectView */,
+				722BA1631A0934B3005B73A1 /* LeftMenu */,
+				7205477C1A0BD67800D64D3C /* public_titlebar_sel@2x.png */,
+				722BA15F1A092F78005B73A1 /* public_main_right@2x.png */,
+				391A3EA81A0A69C800B1249F /* public_backBtn_Bg@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		722BA1631A0934B3005B73A1 /* LeftMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7205477E1A0BDC0000D64D3C /* more_icon_about_s@2x.png */,
+				7205477F1A0BDC0000D64D3C /* more_icon_feedback_s@2x.png */,
+				720547801A0BDC0000D64D3C /* more_icon_replace_s@2x.png */,
+				720547811A0BDC0000D64D3C /* more_icon_upgrade_s@2x.png */,
+				722BA1721A093A0B005B73A1 /* main_left_bottom_icon@2x.png */,
+				722BA1701A09372E005B73A1 /* list_item_sel@2x.png */,
+				722BA1681A093521005B73A1 /* more_icon_about@2x.png */,
+				722BA1691A093521005B73A1 /* more_icon_feedback@2x.png */,
+				722BA16A1A093521005B73A1 /* more_icon_replace@2x.png */,
+				722BA16B1A093521005B73A1 /* more_icon_upgrade@2x.png */,
+			);
+			path = LeftMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3996F1B91A09079A00A45C35 /* KSBluetooth_iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3996F1EF1A09079A00A45C35 /* Build configuration list for PBXNativeTarget "KSBluetooth_iPhone" */;
+			buildPhases = (
+				3996F1B61A09079A00A45C35 /* Sources */,
+				3996F1B71A09079A00A45C35 /* Frameworks */,
+				3996F1B81A09079A00A45C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSBluetooth_iPhone;
+			productName = KSBluetooth_iPhone;
+			productReference = 3996F1BA1A09079A00A45C35 /* KSBluetooth_iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3996F1DD1A09079A00A45C35 /* KSBluetooth_iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3996F1F21A09079A00A45C35 /* Build configuration list for PBXNativeTarget "KSBluetooth_iPhoneTests" */;
+			buildPhases = (
+				3996F1DA1A09079A00A45C35 /* Sources */,
+				3996F1DB1A09079A00A45C35 /* Frameworks */,
+				3996F1DC1A09079A00A45C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3996F1E41A09079A00A45C35 /* PBXTargetDependency */,
+			);
+			name = KSBluetooth_iPhoneTests;
+			productName = KSBluetooth_iPhoneTests;
+			productReference = 3996F1DE1A09079A00A45C35 /* KSBluetooth_iPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3996F1B21A09079A00A45C35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = tts;
+				TargetAttributes = {
+					3996F1DD1A09079A00A45C35 = {
+						TestTargetID = 3996F1B91A09079A00A45C35;
+					};
+				};
+			};
+			buildConfigurationList = 3996F1B51A09079A00A45C35 /* Build configuration list for PBXProject "KSBluetooth_iPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3996F1B11A09079A00A45C35;
+			productRefGroup = 3996F1BB1A09079A00A45C35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3996F1B91A09079A00A45C35 /* KSBluetooth_iPhone */,
+				3996F1DD1A09079A00A45C35 /* KSBluetooth_iPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3996F1B81A09079A00A45C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720547941A0BE1B600D64D3C /* main_btn_s@2x.png in Resources */,
+				7205478A1A0BE0E300D64D3C /* main_dashboard_bg@2x.png in Resources */,
+				7205478C1A0BE12900D64D3C /* main_pointer@2x.png in Resources */,
+				722BA16F1A093521005B73A1 /* more_icon_upgrade@2x.png in Resources */,
+				722BA16D1A093521005B73A1 /* more_icon_feedback@2x.png in Resources */,
+				391A3E9C1A0A65A900B1249F /* pairing_02_n@2x.png in Resources */,
+				720547881A0BE01400D64D3C /* main_search@2x.png in Resources */,
+				391A3EA41A0A65A900B1249F /* pairing_bottom_bg@2x.png in Resources */,
+				722BA1601A092F78005B73A1 /* public_main_right@2x.png in Resources */,
+				722BA16E1A093521005B73A1 /* more_icon_replace@2x.png in Resources */,
+				391A3EAD1A0A6AAC00B1249F /* About_edit@2x.png in Resources */,
+				722BA1711A09372E005B73A1 /* list_item_sel@2x.png in Resources */,
+				720547831A0BDC0000D64D3C /* more_icon_feedback_s@2x.png in Resources */,
+				3996F1D41A09079A00A45C35 /* Main_iPad.storyboard in Resources */,
+				3996F1D91A09079A00A45C35 /* Images.xcassets in Resources */,
+				391A3EA01A0A65A900B1249F /* pairing_04_n@2x.png in Resources */,
+				391A3E9A1A0A65A900B1249F /* pairing_01_n@2x.png in Resources */,
+				720547821A0BDC0000D64D3C /* more_icon_about_s@2x.png in Resources */,
+				3996F1D11A09079A00A45C35 /* Main_iPhone.storyboard in Resources */,
+				720547931A0BE1B600D64D3C /* main_btn_n@2x.png in Resources */,
+				391A3EA21A0A65A900B1249F /* pairing_05_n@2x.png in Resources */,
+				391A3EA11A0A65A900B1249F /* pairing_04_s@2x.png in Resources */,
+				391A3E9B1A0A65A900B1249F /* pairing_01_s@2x.png in Resources */,
+				391A3E991A0A65A900B1249F /* mobile_phone_client_icon@2x.png in Resources */,
+				7205477D1A0BD67800D64D3C /* public_titlebar_sel@2x.png in Resources */,
+				3996F1C81A09079A00A45C35 /* InfoPlist.strings in Resources */,
+				720547901A0BE16100D64D3C /* main_power_on@2x.png in Resources */,
+				391A3E9D1A0A65A900B1249F /* pairing_02_s@2x.png in Resources */,
+				720547851A0BDC0000D64D3C /* more_icon_upgrade_s@2x.png in Resources */,
+				722BA16C1A093521005B73A1 /* more_icon_about@2x.png in Resources */,
+				7205478F1A0BE16100D64D3C /* main_power_off@2x.png in Resources */,
+				391A3E971A0A65A900B1249F /* btn_pairing_normal@2x.png in Resources */,
+				391A3EA91A0A69C800B1249F /* public_backBtn_Bg@2x.png in Resources */,
+				391A3EA31A0A65A900B1249F /* pairing_05_s@2x.png in Resources */,
+				391A3E9F1A0A65A900B1249F /* pairing_03_s@2x.png in Resources */,
+				391A3E981A0A65A900B1249F /* connect_device@2x.png in Resources */,
+				391A3E9E1A0A65A900B1249F /* pairing_03_n@2x.png in Resources */,
+				391A3EAE1A0A6AAC00B1249F /* About_logo@2x.png in Resources */,
+				722BA1731A093A0B005B73A1 /* main_left_bottom_icon@2x.png in Resources */,
+				720547841A0BDC0000D64D3C /* more_icon_replace_s@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3996F1DC1A09079A00A45C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3996F1EA1A09079A00A45C35 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3996F1B61A09079A00A45C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3996F2031A090ECC00A45C35 /* MMDrawerVisualState.m in Sources */,
+				3996F2081A090F3800A45C35 /* KSLeftViewController.m in Sources */,
+				722BA1761A093E18005B73A1 /* KSConnectViewController.m in Sources */,
+				391A3EA71A0A667200B1249F /* KSAboutController.m in Sources */,
+				3996F1D71A09079A00A45C35 /* ViewController.m in Sources */,
+				3996F2041A090ECC00A45C35 /* UIViewController+MMDrawerController.m in Sources */,
+				3996F2021A090ECC00A45C35 /* MMDrawerController.m in Sources */,
+				3996F2011A090ECC00A45C35 /* MMDrawerBarButtonItem.m in Sources */,
+				3996F20E1A0912C600A45C35 /* KSUtility.m in Sources */,
+				3996F1CE1A09079A00A45C35 /* AppDelegate.m in Sources */,
+				3996F1CA1A09079A00A45C35 /* main.m in Sources */,
+				3996F20B1A090FE900A45C35 /* KSMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3996F1DA1A09079A00A45C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3996F1EC1A09079A00A45C35 /* KSBluetooth_iPhoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3996F1E41A09079A00A45C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3996F1B91A09079A00A45C35 /* KSBluetooth_iPhone */;
+			targetProxy = 3996F1E31A09079A00A45C35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3996F1C61A09079A00A45C35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3996F1C71A09079A00A45C35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3996F1CF1A09079A00A45C35 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3996F1D01A09079A00A45C35 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3996F1D21A09079A00A45C35 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3996F1D31A09079A00A45C35 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3996F1E81A09079A00A45C35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3996F1E91A09079A00A45C35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3996F1ED1A09079A00A45C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3996F1EE1A09079A00A45C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3996F1F01A09079A00A45C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSBluetooth_iPhone/KSBluetooth_iPhone-Prefix.pch";
+				INFOPLIST_FILE = "KSBluetooth_iPhone/KSBluetooth_iPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3996F1F11A09079A00A45C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSBluetooth_iPhone/KSBluetooth_iPhone-Prefix.pch";
+				INFOPLIST_FILE = "KSBluetooth_iPhone/KSBluetooth_iPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3996F1F31A09079A00A45C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KSBluetooth_iPhone.app/KSBluetooth_iPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSBluetooth_iPhone/KSBluetooth_iPhone-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KSBluetooth_iPhoneTests/KSBluetooth_iPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3996F1F41A09079A00A45C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KSBluetooth_iPhone.app/KSBluetooth_iPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSBluetooth_iPhone/KSBluetooth_iPhone-Prefix.pch";
+				INFOPLIST_FILE = "KSBluetooth_iPhoneTests/KSBluetooth_iPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3996F1B51A09079A00A45C35 /* Build configuration list for PBXProject "KSBluetooth_iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3996F1ED1A09079A00A45C35 /* Debug */,
+				3996F1EE1A09079A00A45C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3996F1EF1A09079A00A45C35 /* Build configuration list for PBXNativeTarget "KSBluetooth_iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3996F1F01A09079A00A45C35 /* Debug */,
+				3996F1F11A09079A00A45C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3996F1F21A09079A00A45C35 /* Build configuration list for PBXNativeTarget "KSBluetooth_iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3996F1F31A09079A00A45C35 /* Debug */,
+				3996F1F41A09079A00A45C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3996F1B21A09079A00A45C35 /* Project object */;
+}
